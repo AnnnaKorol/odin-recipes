@@ -1,7 +1,6 @@
 body {
-  background-color: rgba(241, 203, 35, 0.171);
+  background-color: rgba(247, 238, 121, 0.171);
 }
-
 div {
   width: 400px;
 }
@@ -9,8 +8,8 @@ div {
 h1 {
   font-family: "Euphoria Script", cursive;
   font-size: 60px;
-  color: #c5a61a;
-  margin: 40px;
+  color: #f0d55d;
+  margin: 50px;
   padding: 0;
 }
 
@@ -31,9 +30,9 @@ li:last-child {
 
 li a {
   text-decoration: none;
-  color: #c5a61a;
+  color: #e2bf22;
   display: block;
-  width: 500px;
+  width: 400px;
 
   -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
   -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
@@ -44,7 +43,8 @@ li a {
 
 li a:hover {
   font-size: 25px;
-  background: rgba(230, 200, 67, 0.356);
+  background: #fcda1d1f;
+  color: #f3ca15;
 }
 
 .euphoria-script-regular {
@@ -52,3 +52,22 @@ li a:hover {
   font-weight: 400;
   font-style: normal;
 }
+
+/* End of the styles for the main page */
+/* Flexbox for main page */
+
+.container {
+  width: max-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 5px solid rgba(252, 241, 194, 0.048);
+  padding: 0 10px;
+  margin: 0 auto;
+};
+
+.image-container {
+flex-direction: flex-end;
+}
+
+
